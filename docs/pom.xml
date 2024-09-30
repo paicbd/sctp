@@ -1,0 +1,57 @@
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.mobicents.protocols.sctp</groupId>
+		<artifactId>sctp-parent</artifactId>
+		<version>2.0.2-17</version>
+	</parent>
+
+	<artifactId>restcomm-sctp-docs</artifactId>
+	<groupId>org.mobicents.protocols.sctp.docs</groupId>
+	<name>Restcomm :: SCTP :: Docs :: Parent :: ${pom.artifactId}</name>
+	<packaging>pom</packaging>
+
+	<properties>
+		<docs.this.platform>Restcomm</docs.this.platform>
+               <docs.this.application>SCTP Library</docs.this.application>
+               <docs.project.version>${project.version}</docs.project.version>
+               <docs.this.issue.tracker.url>https://github.com/Restcomm/sctp/issues</docs.this.issue.tracker.url>
+               <docs.this.release.source.code.url>https://github.com/Restcomm/sctp</docs.this.release.source.code.url>
+               <docs.this.trunk.source.code.url>https://github.com/Restcomm/sctp</docs.this.trunk.source.code.url>
+               <docs.this.release.binary.url>https://github.com/RestComm/sctp/releases/latest</docs.this.release.binary.url>
+               <docs.slee.binary.url>https://github.com/RestComm/jain-slee/releases/latest</docs.slee.binary.url>
+
+               <docs.this.platform.telscale>Telscale</docs.this.platform.telscale>
+               <docs.this.issue.tracker.url.telscale>https://github.com/Restcomm/sctp/issues</docs.this.issue.tracker.url.telscale>
+               <docs.this.release.source.code.url.telscale>https://bitbucket.org/telestax/telscale-sctp</docs.this.release.source.code.url.telscale>
+               <docs.this.trunk.source.code.url.telscale>https://bitbucket.org/telestax/telscale-sctp</docs.this.trunk.source.code.url.telscale>
+               <docs.this.release.binary.url.telscale>https://telestax.zendesk.com/hc/en-us/sections/201838506-Product-Downloads</docs.this.release.binary.url.telscale>
+               <docs.slee.binary.url.telscale>https://telestax.zendesk.com/hc/en-us/sections/201838506-Product-Downloads</docs.slee.binary.url.telscale>
+
+               <docs.jee.platform>JBoss Application Server</docs.jee.platform>
+
+		<docs.application.name>SCTP Library</docs.application.name>
+		<docs.application.dirname>sctp</docs.application.dirname>
+		<docs.bookid>SCTPLibrary</docs.bookid>
+	</properties>
+
+	<modules>
+		<module>sources-asciidoc</module>
+	</modules>
+
+	<!--profiles>
+		<profile>
+			<id>restcomm</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<modules>
+				<module>sources-restcomm</module>
+				<module>jdocbook-restcomm</module>
+			</modules>
+		</profile>
+	</profiles-->
+</project>

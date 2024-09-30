@@ -1,0 +1,136 @@
+##############################
+## Java
+##############################
+.mtj.tmp/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+
+##############################
+## Maven
+##############################
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+pom.xml.bak
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+maven-ant-tasks.jar
+test-output
+transaction.log
+## Maven generated target folders
+~
+*/target/**
+target
+release/checkout/
+release/checkout/**
+
+##############################
+## Gradle
+##############################
+bin/
+build/
+.gradle
+.gradletasknamecache
+gradle-app.setting
+!gradle-wrapper.jar
+
+##############################
+## IntelliJ
+##############################
+out/
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+.idea
+
+##############################
+## NetBeans
+##############################
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+catalog.xml
+
+##############################
+## Visual Studio Code
+##############################
+.vscode/
+
+##############################
+## OS X
+##############################
+.DS_Store
+
+##############################
+## Generated directories
+##############################
+logs/
+LICENSE4J-Runtime-Library/
+
+# ignore .svn metadata files
+.svn
+
+# ignore class files
+*.class
+
+#
+maven-ant-tasks.jar
+test-output
+transaction.log
+# vim files
+*.swp
+/.gitk-tmp.*
+atlassian-ide-plugin.xml
+
+# hprof dumps
+/*.hprof
+
+# ignore 'randomly' strewn around logs
+server.log
+
+# ignore java crashes
+hs_err_pid*.log
+
+
+# ignore mvn-rpmbuild repo
+/.m2
+*debuglog.txt
+${env.JBOSS_HOME}
+debuglog.txt.*
+
+target
+/.classpath
+/*/.project
+/sctp-impl/ManagementTest_sctp.xml
+/sctp-impl/sctptest.log
+/sctp-impl/test-output/
+/netty-server-management_sctp.xml
+/sctp-impl/ClientAssociationTest_sctp.xml
+/sctp-impl/server-management_sctp.xml
+/sctp-impl/server-management2_sctp.xml
+/sctp-impl/server-management3_sctp.xml
+sctp-impl/netty-server-management_sctp.xml
+/test_sctp.xml
+/sctp-impl/ManagementTestParam_sctp.xml
+/.project
+/sctptest.log
+/test-output/
+.settings/
+.classpath
+.project
+.vim/
